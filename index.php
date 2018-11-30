@@ -62,17 +62,17 @@
                 <p class="text-center" style="margin:1rem;">Qui: scrivere una piccola intro ai progetti (volendo)</p>
             </div>
             <div class="row projects justify-content-center">
-                <div class="col-sm-6 col-lg-4 item" data-aos="zoom-in" data-aos-delay="50">
+                <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
                     <img class="img-fluid" src="assets/img/41691816_2096137140417059_8240626508134088704_o.jpg">
                     <h3 class="name" style="font-size:25px;"><strong>Conferenze</strong></h3>
                     <p class="description" style="font-size:1rem;">400 conferenze con oltre 500 speaker in tutta Italia, Università, Centri per l’Innovazione, per far conoscere storie di successo partite da lì.<br></p>
                 </div>
-                <div class="col-sm-6 col-lg-10 item" data-aos="zoom-in" data-aos-delay="50">
+                <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
                     <img class="img-fluid" src="assets/img/40194714_2074923265871780_1158958815580782592_n.png" style="padding:3rem">
                     <h3 class="name" style="font-size:25px;">Silicon Valley Study Tour<br></h3>
                     <p class="description">Nato per portare, dal 2005, studenti manager e imprenditori di 30 Paesi in Silicon Valley, una settimana a conoscere storie di centinaia di italiani che là hanno fatto la differenza.<br></p>
                 </div>
-                <div class="col-sm-6 col-lg-10 item" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100">
                     <img class="img-fluid" src="assets/img/welcomaps.png" style="padding:3rem">
                     <h3 class="name" style="font-size:25px;">Welcomaps</h3>
                     <p class="description" style="font-size:1rem;">La mappa dei progetti di accoglienza migranti in Italia per trasferire il messaggio “si può fare”<br></p>
@@ -120,7 +120,7 @@
                       </a>
                     </div>
                 </div>
-                <p class="copyright">La Storia Nel Futuro © 2018 | Powered by Marco Somaschini & G. Vitale<br></p>
+                <p class="copyright">La Storia Nel Futuro © 2018 | Powered by M. Somaschini & G. Vitale<br></p>
             </div>
         </footer>
     </div>
