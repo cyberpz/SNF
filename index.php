@@ -21,7 +21,7 @@
 <body>
     <div>
         <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean">
-            <div class="container"><a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:15rem;height:4rem;"></a>
+            <div class="container"><a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="border:none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav ml-auto">
@@ -54,16 +54,7 @@
           </p>
         </div>
     </div>
-    <div id="dove" class="container-fluid" data-bs-parallax-bg="true" style="height: 400px; background-image:url(&quot;assets/img/hTSpo6.jpg&quot;);background-size:contain;background-repeat:no-repeat; background-position:center">
-        <div class="row align-content-center align-self-center justify-content-center mt-3">
-          <h2 class="col-12 mt-3" style="color:rgb(255,255,255);text-align:center;font-size:3rem;"><b>Dove</b></h2>
-          <div class="container">
-            <p class="lead p-3 text-center" data-aos="fade" style="font-size:19px;color:white;">
-              <?php echo $json->text_2; ?>
-            </p>
-          </div>
-        </div>
-    </div>
+
     <div id="progetti" class="projects-clean">
         <div class="container">
             <div class="intro">
@@ -89,6 +80,19 @@
             </div>
         </div>
     </div>
+
+    <div id="dove" class="highlight-blue" data-bs-parallax-bg="true" style="background-image:url(&quot;assets/img/hTSpo6.jpg&quot;);background-repeat:no-repeat; background-position:center">
+        <div class="container align-content-center align-self-center justify-content-center">
+          <h2 class="col-12 mt-3" style="color:rgb(255,255,255);text-align:center;font-size:3rem;"><b>Dove</b></h2>
+          <div class="container">
+            <p class="lead p-3 text-center" data-aos="fade" style="font-size:19px;color:white;">
+              <?php echo $json->text_2; ?>
+            </p>
+          </div>
+        </div>
+    </div>
+
+
     <div id="partecipa" class="contact-clean">
         <h2 class="text-center" style="font-size:3rem;">Partecipa!</h2>
         <form method="post" data-aos="zoom-out-up">
@@ -116,7 +120,7 @@
                       </a>
                     </div>
                 </div>
-                <p class="copyright">La Storia Nel Futuro © 2018 | Powered by Marco Somaschini and p~z<br></p>
+                <p class="copyright">La Storia Nel Futuro © 2018 | Powered by Marco Somaschini & G. Vitale<br></p>
             </div>
         </footer>
     </div>

@@ -14,7 +14,7 @@
   <body>
     <?php
 
-    $password = 'FuturoNellaStoria95';
+    $password = 'FuturoNellaStoria98';
     // -------------------------
     // print_r($_POST);
     session_start();
@@ -59,7 +59,7 @@
           $json = json_encode($obj);
           fwrite($file, $json);
           print "fatto";
-          
+
      } else { // in qualsiasi altro caso
        ?>
        <form style="margin:1rem" action="admin.php" method="post">
