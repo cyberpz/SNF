@@ -1,6 +1,6 @@
 <?php
   $path = "descs.json";
-  $file = fopen($path,'r');
+  $file = fopen($path,'r') ;
   $raw = fread($file, filesize($path));
   $json = json_decode($raw) or die("WHAT");
 ?>
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-
 </head>
 
 <body>
@@ -34,6 +33,7 @@
             </div>
         </nav>
     </div>
+
     <div class="simple-slider" style="margin-top:7rem; width:100%; height:56%">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -46,6 +46,7 @@
             <div class="swiper-button-next"></div>
         </div>
     </div>
+
     <div id="chisiamo" class="highlight-blue">
         <div class="container visible">
           <h2 class="text-center m-0" style="font-size:3rem;"><b> Chi siamo </b></h2>
@@ -103,6 +104,7 @@
             <div class="form-group d-flex justify-content-center align-content-center align-self-center"><button class="btn btn-primary" type="submit">INVIA</button></div>
         </form>
     </div>
+
     <div class="footer-dark">
         <footer>
             <div class="container">
@@ -124,6 +126,7 @@
             </div>
         </footer>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>

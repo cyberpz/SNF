@@ -9,6 +9,14 @@
       .errore td { text-align: center; color: #CC0000; }
       input[type="password"] { border: 1px solid #DDD; }
     </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Storia nel Futuro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
   </head>
 
   <body>
@@ -16,7 +24,6 @@
 
     $password = 'FuturoNellaStoria98';
     // -------------------------
-    // print_r($_POST);
     session_start();
     $pwd = isset($_POST['pwd']) ? $_POST['pwd'] : false;
 
@@ -62,18 +69,43 @@
 
      } else { // in qualsiasi altro caso
        ?>
-       <form style="margin:1rem" action="admin.php" method="post">
-         <h1>Modifica didascalie:</h1>
-         <div class="">
-           <h3>Chi siamo</h3>
-           <textarea name="text_1" rows="8" cols="40"><?php echo $json->text_1;?></textarea>
-         </div>
-         <div class="">
-           <h3>Dove</h3>
-           <textarea name="text_2" rows="8" cols="40"><?php echo $json->text_2;?></textarea>
-         </div>
-         <input style="margin:1rem" type="submit" value="Invia">
-       </form>
+       
+       <!-- NAVBAR -->
+       <div>
+         <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean">
+             <div class="container"><a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
+                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="border:none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                     <div class="collapse navbar-collapse" id="navcol-1">
+                         <ul class="nav navbar-nav ml-auto">
+                             <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="index.php?#chisiamo">Chi siamo</a></li>
+                             <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?#dove">Dove</a></li>
+                             <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?#progetti">Progetti</a></li>
+                             <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?#partecipa">Partecipa</a></li>
+                         </ul>
+                     </div>
+             </div>
+         </nav>
+       </div>
+
+
+       <div class="container">
+         <form class="form-group" style="margin-top:7rem" action="admin.php" method="post">
+           <h2>Modifica didascalie:</h2>
+
+           <div class="mt-5">
+             <h3>Chi siamo</h3>
+             <textarea class="form-control" name="text_1" rows="8" cols="40"><?php echo $json->text_1;?></textarea>
+           </div>
+
+           <div class="mt-5">
+             <h3>Dove</h3>
+             <textarea class="form-control" name="text_2" rows="8" cols="40"><?php echo $json->text_2;?></textarea>
+           </div>
+
+           <input class="btn btn-primary col-12 p-3 mt-3" type="submit" value="Invia">
+
+         </form>
+       </div>
        <?php
      }
     }
