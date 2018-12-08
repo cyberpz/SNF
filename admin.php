@@ -66,6 +66,8 @@
           $json = json_encode($obj);
           fwrite($file, $json);
           print "fatto";
+          // wait 2 sec and
+          header("Location: http://www.storianelfuturo.org/");
 
      } else { // in qualsiasi altro caso
        ?>
