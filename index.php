@@ -43,7 +43,7 @@
                 <div class="swiper-slide" style="background-image:url(&quot;assets/foto/2.JPG&quot;);"></div>
                 <div class="swiper-slide" style="background-image:url(&quot;assets/foto/3.JPG&quot;);"></div>
                 <div class="swiper-slide" style="background-image:url(&quot;assets/foto/5.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_4276.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_4276.jpg&quot;);"></div>
                 <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9047.JPG&quot;);"></div>
                 <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_0956.JPG&quot;);"></div>
                 <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9111.JPG&quot;);"></div>
@@ -57,10 +57,10 @@
         </div>
     </div>
 
-    <div id="chisiamo" class="highlight-blue" style="padding:0">
-        <div class="container visible" style="padding:50px 0" >
-          <h2 class="text-center m-0" style="font-size:3rem;"><b> Chi siamo </b></h2>
-          <p class="text-center lead p-3" data-aos="fade" style="font-size:19px;">
+    <div id="chisiamo" class="highlight-blue">
+        <div class="container visible">
+          <h2 class="text-center m-0" style="font-size:4rem;"><b> Chi siamo </b></h2>
+          <p class="text-center lead p-3" data-aos="fade" style="font-size:1.5rem;">
             <?php echo $json->text_1; ?>
           </p>
         </div>
@@ -69,45 +69,63 @@
     <div id="progetti" class="projects-clean">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center" style="font-size:3rem;">Progetti</h2>
-                <p class="text-center" style="margin:1rem;">Qui: scrivere una piccola intro ai progetti (volendo)</p>
+                <h2 class="text-center" style="font-size:4rem;">Progetti</h2>
             </div>
+
             <div class="row projects justify-content-center">
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
-                    <img class="img-fluid" src="assets/img/41691816_2096137140417059_8240626508134088704_o.jpg">
-                    <h3 class="name" style="font-size:25px;"><strong>Conferenze</strong></h3>
-                    <p class="description" style="font-size:1rem;">400 conferenze con oltre 500 speaker in tutta Italia, Università, Centri per l’Innovazione, per far conoscere storie di successo partite da lì.<br></p>
+                    <img class="img-fluid" src="assets/img/collage.jpg">
+                    <h3 class="name" style="font-size:3rem;"><strong>Conferenze</strong></h3>
+                    <p class="description" style="font-size:1.5rem;">Più di 400 conferenze ed eventi, oltre 500 speaker in tutta Italia, Università e Centri per l’Innovazione, per far conoscere storie di successo partite dal genio di quei luoghi.<br></p>
+                  </a>
                 </div>
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
+                  <a href="https://siliconvalleystudytour.com" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/40194714_2074923265871780_1158958815580782592_n.png" style="padding:3rem">
-                    <h3 class="name" style="font-size:25px;">Silicon Valley Study Tour<br></h3>
-                    <p class="description">Nato per portare, dal 2005, studenti manager e imprenditori di 30 Paesi in Silicon Valley, una settimana a conoscere storie di centinaia di italiani che là hanno fatto la differenza.<br></p>
+                    <h3 class="name" style="font-size:3rem;">Silicon Valley Study Tour<br></h3>
+                    <p class="description" style="font-size:1.5rem;">Nato nel  2005, ha portato oltre 1000 studenti, manager e imprenditori da più di 30 Paesi in Silicon Valley, a conoscere in una settimana le storie di centinaia di italiani che là hanno fatto la differenza.<br></p>
+                  </a>
                 </div>
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100">
+                  <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
+                    <img class="img-fluid" src="assets/img/tssv.png" style="width:20rem">
+                    <h3 class="name" style="font-size:3rem; color:#2c4484"> Tech Scout in Silicon Valley</h3>
+                    <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
+                      <a href="http://sviec.org/" target="_blank" target="_blank" style="text-decoration: underline; color:#2c4484">SVIEC</a>
+                      a favore di aziende europee interessate
+                    </p>
+                  </a>
+                </div>
+                <div class="col-10 item mb-5" data-aos="zoom-in" data-aos-delay="100">
+                  <a href="https://welcomaps.org/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/welcomaps.png" style="padding:3rem">
-                    <h3 class="name" style="font-size:25px;">Welcomaps</h3>
-                    <p class="description" style="font-size:1rem;">La mappa dei progetti di accoglienza migranti in Italia per trasferire il messaggio “si può fare”<br></p>
+                    <h3 class="name" style="font-size:3rem;">Welcomaps</h3>
+                    <p class="description" style="font-size:1.5rem;">Nata nel 2017, la mappa dei progetti di accoglienza migranti in Italia per trasferire il messaggio “si può fare”<br></p>
+                  </a>
                 </div>
             </div>
         </div>
     </div>
 
     <div id="dove" class="highlight-blue" data-bs-parallax-bg="true" style="background-image:url(&quot;assets/img/hTSpo6.jpg&quot;);background-repeat:no-repeat; background-position:center">
-        <div class="container align-content-center align-self-center justify-content-center">
-          <h2 class="col-12 mt-3" style="color:rgb(255,255,255);text-align:center;font-size:3rem;"><b>Dove</b></h2>
-          <div class="container">
-            <p class="lead p-3 text-center" data-aos="fade" style="font-size:19px;color:white;">
-              <?php echo $json->text_2; ?>
-            </p>
-          </div>
+        <div class="intro">
+          <h2 class="text-center" style="color:rgb(255,255,255);font-size:4rem;"><b>Dove</b></h2>
+        </div>
+        <div class="container">
+          <p class="lead p-3 text-center" data-aos="fade" style="font-size:1.5rem;color:white;">
+            <?php echo $json->text_2; ?>
+          </p>
         </div>
     </div>
 
 
     <div id="partecipa" class="contact-clean">
-        <h2 class="text-center" style="font-size:3rem;">Partecipa!</h2>
+      <div class="intro">
+        <h2 class="text-center" style="font-size:4rem;">Partecipa!</h2>
+      </div>
+
         <form method="post" data-aos="zoom-out-up">
-            <h2 class="text-center" style="font-size:1rem;">Vuoi partecipare ai nostri progetti?&nbsp;<br></h2>
+            <h2 class="text-center" style="font-size:1.5rem;">Vuoi partecipare ai nostri progetti?&nbsp;<br></h2>
             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Nome"></div>
             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
             <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Messaggio"></textarea></div>
@@ -132,7 +150,7 @@
                       </a>
                     </div>
                 </div>
-                <p class="copyright">La Storia Nel Futuro © 2018 | Powered by M. Somaschini & G. Vitale<br></p>
+                <p class="copyright">La Storia Nel Futuro © 2018<br></p>
             </div>
         </footer>
     </div>
