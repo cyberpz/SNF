@@ -18,7 +18,7 @@
 
 <body>
     <div>
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
             <div class="container"><a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="border:none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navcol-1">
