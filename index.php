@@ -33,7 +33,7 @@
         </nav>
     </div>
 
-    <div class="simple-slider" style="margin-top:7rem; width:100%; height:56%">
+    <div class="simple-slider" style="margin-top:7rem; width:100%; height:20rem">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" style="background-image:url(&quot;assets/img/42239361_2105904342773672_7235460953775538176_o.jpg&quot;);"></div>
@@ -57,8 +57,8 @@
         </div>
     </div>
 
-    <div id="chisiamo" class="highlight-blue">
-        <div class="container visible">
+    <div id="chisiamo" class="highlight-blue" style="padding:0">
+        <div class="container visible" style="padding:50px 0" >
           <h2 class="text-center m-0" style="font-size:3rem;"><b> Chi siamo </b></h2>
           <p class="text-center lead p-3" data-aos="fade" style="font-size:19px;">
             <?php echo $json->text_1; ?>
