@@ -4,17 +4,16 @@
   $raw = fread($file, filesize($path));
   $json = json_decode($raw) or die("WHAT");
 ?>
-<DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Storia nel Futuro</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <title>La Storia nel Futuro</title>
 </head>
 
 <body>
@@ -37,9 +36,20 @@
     <div class="simple-slider" style="margin-top:7rem; width:100%; height:56%">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(&quot;assets/img/42239361_2105904342773672_7235460953775538176_o.jpg&quot;);margin-bottom:17px;"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/img/42239361_2105904342773672_7235460953775538176_o.jpg&quot;);"></div>
                 <div class="swiper-slide" style="background-image:url(&quot;assets/img/Foveon 1 svst 2005.jpg&quot;);"></div>
                 <div class="swiper-slide" style="background-image:url(&quot;assets/img/Facebook 5 svst 2009.jpg&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/1.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/2.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/3.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/5.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_4276.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9047.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_0956.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9111.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9218.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9219.JPG&quot;);"></div>
+                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9270.JPG&quot;);"></div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
