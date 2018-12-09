@@ -17,87 +17,61 @@
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-            <div class="container"><a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="border:none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#dove">Dove</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#progetti">Progetti</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#partecipa">Partecipa</a></li>
-                        </ul>
-                    </div>
-            </div>
-        </nav>
-    </div>
-
-    <div class="simple-slider" style="margin-top:7rem; width:100%; height:20rem">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(&quot;assets/img/42239361_2105904342773672_7235460953775538176_o.jpg&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/img/Foveon 1 svst 2005.jpg&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/img/Facebook 5 svst 2009.jpg&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/1.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/2.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/3.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/5.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_4276.jpg&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9047.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_0956.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9111.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9218.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9219.JPG&quot;);"></div>
-                <div class="swiper-slide" style="background-image:url(&quot;assets/foto/IMG_9270.JPG&quot;);"></div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top">
+        <div class="container"><a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="border:none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#dove">Dove</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#progetti">Progetti</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#partecipa">Partecipa</a></li>
+                    </ul>
+                </div>
         </div>
-    </div>
-	
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/42239361_2105904342773672_7235460953775538176_o.jpg" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/Foveon 1 svst 2005.jpg" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/foto/IMG_4276.jpg" >
-    </div>
+    </nav>
 
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/foto/IMG_0956.JPG" >
-    </div>
+    <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="assets/img/42239361_2105904342773672_7235460953775538176_o.jpg" >
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/img/Foveon 1 svst 2005.jpg" >
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/foto/IMG_4276.jpg" >
+        </div>
 
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/foto/IMG_9270.JPG" >
-    </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/foto/IMG_9056.JPG" >
+        </div>
 
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/foto/IMG_9218.JPG">
-    </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/foto/IMG_9270.JPG" >
+        </div>
 
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/foto/IMG_9047.JPG">
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/foto/IMG_9118.JPG">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/foto/IMG_9047.JPG">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
 
     <div id="chisiamo" class="highlight-blue">
-        <div class="container visible">
+        <div class="container visible pt-5">
           <h2 class="text-center m-0" style="font-size:4rem;"><b> Chi siamo </b></h2>
           <p class="text-center lead p-3" data-aos="fade" style="font-size:1.5rem;">
             <?php echo $json->text_1; ?>
@@ -106,7 +80,7 @@
     </div>
 
     <div id="progetti" class="projects-clean">
-        <div class="container">
+        <div class="container pt-5">
             <div class="intro">
                 <h2 class="text-center" style="font-size:4rem;">Progetti</h2>
             </div>
@@ -128,7 +102,6 @@
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100">
                   <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/tssv.png" style="width:20rem">
-                    <h3 class="name" style="font-size:3rem; color:#2c4484"> Tech Scout in Silicon Valley</h3>
                     <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
                       <a href="http://sviec.org/" target="_blank" target="_blank" style="text-decoration: underline; color:#2c4484">SVIEC</a>
                       a favore di aziende europee interessate
@@ -147,7 +120,7 @@
     </div>
 
     <div id="dove" class="highlight-blue" data-bs-parallax-bg="true" style="background-image:url(&quot;assets/img/hTSpo6.jpg&quot;);background-repeat:no-repeat; background-position:center">
-        <div class="intro">
+        <div class="intro pt-5">
           <h2 class="text-center" style="color:rgb(255,255,255);font-size:4rem;"><b>Dove</b></h2>
         </div>
         <div class="container">
@@ -159,8 +132,8 @@
 
 
     <div id="partecipa" class="contact-clean">
-      <div class="intro">
-        <h2 class="text-center" style="font-size:4rem;">Partecipa!</h2>
+      <div class="intro pt-5">
+        <h2 class="text-center " style="font-size:4rem;">Partecipa!</h2>
       </div>
 
         <form method="post" data-aos="zoom-out-up">
