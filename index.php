@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-eu-cookie-law-popup.css"/>
+    <script src="assets/js/jquery-eu-cookie-law-popup.js"></script>
     <title>La Storia nel Futuro</title>
 </head>
 
-<body>
+<body class="eupopup eupopup-top">
     <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top">
         <div class="container">
           <a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
@@ -77,7 +80,7 @@
 
 
     <div id="chisiamo" class="highlight-blue">
-        <div class="container visible pt-5">
+        <div class="container visible py-5">
           <h2 class="text-center m-0" style="font-size:4rem;"><b> Chi siamo </b></h2>
           <p class="text-center lead p-3" data-aos="fade" style="font-size:1.5rem;">
             <?php echo $json->text_1; ?>
@@ -181,10 +184,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-    <script src="assets/js/slideNav.js"></script>
-    <script>
-	    window.slide = new SlideNav();
-    </script>
+    
 </body>
 
 </html>
