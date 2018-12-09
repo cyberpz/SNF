@@ -28,14 +28,14 @@ $.fn.euCookieLawPopup = (function() {
 	///////////////////////////////////////////////////////////////////////////////////////////////
 	// PARAMETERS (MODIFY THIS PART) //////////////////////////////////////////////////////////////
 	_self.params = {
-		cookiePolicyUrl : '/privacy-policy.html',
+		cookiePolicyUrl : 'privacy-policy.html',
 		popupPosition : 'top',
 		colorStyle : 'default',
 		compactStyle : false,
 		popupTitle : 'Questo sito non utilizza cookies',
 		popupText : 'Avvisiamo i visitatori che questo sito non salva alcuna traccia di azioni effettuate. Sosteniamo la vostra privacy non utilizzando la technologia dei cookies.',
 		buttonContinueTitle : 'OK',
-		buttonLearnmoreTitle : 'Learn&nbsp;more',
+		buttonLearnmoreTitle : 'Leggi la nostra Policy',
 		buttonLearnmoreOpenInNewWindow : true,
 		agreementExpiresInDays : 30,
 		autoAcceptCookiePolicy : false,
