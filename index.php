@@ -56,6 +56,45 @@
             <div class="swiper-button-next"></div>
         </div>
     </div>
+	
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/42239361_2105904342773672_7235460953775538176_o.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Foveon 1 svst 2005.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/foto/IMG_4276.jpg" >
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/foto/IMG_0956.JPG" >
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/foto/IMG_9270.JPG" >
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/foto/IMG_9218.JPG">
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/foto/IMG_9047.JPG">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 
     <div id="chisiamo" class="highlight-blue">
         <div class="container visible">
