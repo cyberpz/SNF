@@ -160,6 +160,9 @@
                       <a href="https://www.instagram.com/siliconvalleystudytour/">
                         <i class="icon ion-social-instagram"></i>
                       </a>
+                      <div>
+                          <a style="color:#f0f9ff" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
+                      </div>
                     </div>
                 </div>
                 <p class="copyright">La Storia Nel Futuro © 2018<br></p>
