@@ -18,14 +18,20 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top">
-        <div class="container"><a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="border:none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container">
+          <a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="border:none;">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
                 <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#dove">Dove</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#progetti">Progetti</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#partecipa">Partecipa</a></li>
+                    <ul class="nav navbar-nav ml-auto" data-toggle="collapse" href="#navcol-1">
+                        <li class="nav-item " role="presentation"><a  class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
+                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
+                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#progetti">Progetti</a></li>
+                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#partecipa">Partecipa</a></li>
                     </ul>
                 </div>
         </div>
