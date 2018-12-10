@@ -32,8 +32,8 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto" data-toggle="collapse" href="#navcol-1">
                         <li class="nav-item " role="presentation"><a  class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
-                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#progetti">Progetti</a></li>
+                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#partecipa">Partecipa</a></li>
                     </ul>
                 </div>
@@ -93,7 +93,6 @@
             <div class="intro">
                 <h2 class="text-center" style="font-size:4rem;">Progetti</h2>
             </div>
-
             <div class="row projects justify-content-center">
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
                     <img class="img-fluid" src="assets/img/collage.jpg">
@@ -111,11 +110,11 @@
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100">
                   <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/tssv.png" style="width:20rem">
-                    <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
-                      <a href="http://sviec.org/" target="_blank" target="_blank" style="text-decoration: underline; color:#2c4484">SVIEC</a>
-                      a favore di aziende europee interessate
-                    </p>
                   </a>
+                  <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
+                    <a href="http://sviec.org/" target="_blank" target="_blank" style="text-decoration: underline; color:#2c4484">SVIEC</a>
+                    a favore di aziende europee interessate
+                  </p>
                 </div>
                 <div class="col-10 item mb-5" data-aos="zoom-in" data-aos-delay="100">
                   <a href="https://welcomaps.org/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
@@ -160,21 +159,19 @@
                 <div class="row">
                     <div class="col-md-6 item text">
                         <h3>La Storia Nel Futuro</h3>
-                        <p>La prima associazione culturale con l’obiettivo di valorizzare il genius loci. Dal 1998, in Italia. <br> P.IVA: 01730980032<br></p>
+                          <a style="color:#f0f9ff" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
+                        <p> P.IVA: IT01730980032<br></p>
                     </div>
                     <div class="col item social">
-                      <a href="https://www.facebook.com/SVSTour/">
+                      <a target="_blank" href="https://www.facebook.com/SVSTour/">
                         <i class="icon ion-social-facebook"></i>
                       </a>
-                      <a href="https://www.instagram.com/siliconvalleystudytour/">
+                      <a target="_blank" href="https://www.instagram.com/siliconvalleystudytour/">
                         <i class="icon ion-social-instagram"></i>
                       </a>
-                      <div>
-                          <a style="color:#f0f9ff" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
-                      </div>
                     </div>
                 </div>
-                <p class="copyright">La Storia Nel Futuro © 2018<br></p>
+                <p class="copyright">La Storia Nel Futuro © 2018</p>
             </div>
         </footer>
     </div>
@@ -184,7 +181,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-    
+
 </body>
 
 </html>

@@ -71,7 +71,7 @@
 
      } else { // in qualsiasi altro caso
        ?>
-       
+
        <!-- NAVBAR -->
        <div>
          <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean">
@@ -80,8 +80,8 @@
                      <div class="collapse navbar-collapse" id="navcol-1">
                          <ul class="nav navbar-nav ml-auto">
                              <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="index.php?#chisiamo">Chi siamo</a></li>
-                             <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?#dove">Dove</a></li>
                              <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?#progetti">Progetti</a></li>
+                             <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?#dove">Dove</a></li>
                              <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?#partecipa">Partecipa</a></li>
                          </ul>
                      </div>
