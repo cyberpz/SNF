@@ -40,7 +40,7 @@
         </div>
     </nav>
 
-    <div class="simple-slider " style=" margin-top: 7rem; height: auto">
+    <div class="simple-slider" style=" margin-top: 7rem; height: auto">
        <div class="swiper-container ">
            <div class="swiper-wrapper" style="height: auto">
                <div class="swiper-slide" style="background-image:url('slideshow/7.jpg');"></div>
@@ -88,7 +88,7 @@
                   </a>
                 </div>
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100">
-                  <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
+                  <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color: #7e8285">
                     <img class="img-fluid" src="assets/img/tssv.png" style="width:20rem">
                     <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
                       <a href="http://sviec.org/" target="_blank" target="_blank" style="text-decoration: underline; color:#2c4484">SVIEC</a>
