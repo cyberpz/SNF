@@ -32,51 +32,32 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto" data-toggle="collapse" href="#navcol-1">
                         <li class="nav-item " role="presentation"><a  class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
-                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#progetti">Progetti</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
+                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#progetti">Progetti</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#partecipa">Partecipa</a></li>
                     </ul>
                 </div>
         </div>
     </nav>
 
-    <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="assets/img/42239361_2105904342773672_7235460953775538176_o.jpg" >
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/img/Foveon 1 svst 2005.jpg" >
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/foto/IMG_4276.jpg" >
-        </div>
+    <div class="simple-slider" style="margin-top:7rem; width:100%; height:56%">
+       <div class="swiper-container">
+           <div class="swiper-wrapper">
+               <div class="swiper-slide" style="background-image:url(&quot;slideshow/SVST18group_Stanford.jpg&quot;)"></div>
+               <div class="swiper-slide" style="background-image:url(&quot;slideshow/222.jpg&quot;);"></div>
+               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_4276.jpg&quot;"></div>
+               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9047.jpg&quot;);"></div>
+               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9056.jpg&quot;);"></div>
+               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9118.jpg&quot;);"></div>
+               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9270.jpg&quot;);"></div>
+        
 
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/foto/IMG_9056.JPG" >
-        </div>
-
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/foto/IMG_9270.JPG" >
-        </div>
-
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/foto/IMG_9118.JPG">
-        </div>
-
-        <div class="carousel-item">
-          <img class="d-block w-100" src="assets/foto/IMG_9047.JPG">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+           </div>
+           <div class="swiper-pagination"></div>
+           <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
+       </div>
+   </div>
 
 
     <div id="chisiamo" class="highlight-blue">
@@ -93,6 +74,7 @@
             <div class="intro">
                 <h2 class="text-center" style="font-size:4rem;">Progetti</h2>
             </div>
+
             <div class="row projects justify-content-center">
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
                     <img class="img-fluid" src="assets/img/collage.jpg">
@@ -110,11 +92,11 @@
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100">
                   <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/tssv.png" style="width:20rem">
+                    <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
+                      <a href="http://sviec.org/" target="_blank" target="_blank" style="text-decoration: underline; color:#2c4484">SVIEC</a>
+                      a favore di aziende europee interessate
+                    </p>
                   </a>
-                  <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
-                    <a href="http://sviec.org/" target="_blank" target="_blank" style="text-decoration: underline; color:#2c4484">SVIEC</a>
-                    a favore di aziende europee interessate
-                  </p>
                 </div>
                 <div class="col-10 item mb-5" data-aos="zoom-in" data-aos-delay="100">
                   <a href="https://welcomaps.org/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
@@ -159,19 +141,21 @@
                 <div class="row">
                     <div class="col-md-6 item text">
                         <h3>La Storia Nel Futuro</h3>
-                          <a style="color:#f0f9ff" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
-                        <p> P.IVA: IT01730980032<br></p>
+                        <p>La prima associazione culturale con l’obiettivo di valorizzare il genius loci. Dal 1998, in Italia. <br> P.IVA: 01730980032<br></p>
                     </div>
                     <div class="col item social">
-                      <a target="_blank" href="https://www.facebook.com/SVSTour/">
+                      <a href="https://www.facebook.com/SVSTour/">
                         <i class="icon ion-social-facebook"></i>
                       </a>
-                      <a target="_blank" href="https://www.instagram.com/siliconvalleystudytour/">
+                      <a href="https://www.instagram.com/siliconvalleystudytour/">
                         <i class="icon ion-social-instagram"></i>
                       </a>
+                      <div>
+                          <a style="color:#f0f9ff" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
+                      </div>
                     </div>
                 </div>
-                <p class="copyright">La Storia Nel Futuro © 2018</p>
+                <p class="copyright">La Storia Nel Futuro © 2018<br></p>
             </div>
         </footer>
     </div>
