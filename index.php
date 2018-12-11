@@ -43,14 +43,14 @@
     <div class="simple-slider" style="margin-top:7rem; width:100%; height:56%">
        <div class="swiper-container">
            <div class="swiper-wrapper">
-               <div class="swiper-slide" style="background-image:url(&quot;slideshow/SVST18group_Stanford.jpg&quot;)"></div>
-               <div class="swiper-slide" style="background-image:url(&quot;slideshow/222.jpg&quot;);"></div>
-               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_4276.jpg&quot;"></div>
-               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9047.jpg&quot;);"></div>
-               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9056.jpg&quot;);"></div>
-               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9118.jpg&quot;);"></div>
-               <div class="swiper-slide" style="background-image:url(&quot;slideshow/IMG_9270.jpg&quot;);"></div>
-        
+               <div class="swiper-slide" style="background-image:url('slideshow/7.jpg')"></div>
+               <div class="swiper-slide" style="background-image:url('slideshow/1.jpg')"></div>
+               <div class="swiper-slide" style="background-image:url('slideshow/2.jpg')"></div>
+               <div class="swiper-slide" style="background-image:url('slideshow/3.jpg')"></div>
+               <div class="swiper-slide" style="background-image:url('slideshow/4.jpg')"></div>
+               <div class="swiper-slide" style="background-image:url('slideshow/5.jpg')"></div>
+               <div class="swiper-slide" style="background-image:url('slideshow/6.jpg')"></div>
+
 
            </div>
            <div class="swiper-pagination"></div>
