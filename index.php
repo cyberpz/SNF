@@ -40,18 +40,16 @@
         </div>
     </nav>
 
-    <div class="simple-slider" style="margin-top:7rem; width:100%; height:56%">
-       <div class="swiper-container">
-           <div class="swiper-wrapper">
-               <div class="swiper-slide" style="background-image:url('slideshow/7.jpg')"></div>
+    <div class="simple-slider " style=" margin-top: 7rem; height: auto">
+       <div class="swiper-container ">
+           <div class="swiper-wrapper" style="height: auto">
+               <div class="swiper-slide" style="background-image:url('slideshow/7.jpg');"></div>
                <div class="swiper-slide" style="background-image:url('slideshow/1.jpg')"></div>
                <div class="swiper-slide" style="background-image:url('slideshow/2.jpg')"></div>
                <div class="swiper-slide" style="background-image:url('slideshow/3.jpg')"></div>
                <div class="swiper-slide" style="background-image:url('slideshow/4.jpg')"></div>
                <div class="swiper-slide" style="background-image:url('slideshow/5.jpg')"></div>
                <div class="swiper-slide" style="background-image:url('slideshow/6.jpg')"></div>
-
-
            </div>
            <div class="swiper-pagination"></div>
            <div class="swiper-button-prev"></div>
