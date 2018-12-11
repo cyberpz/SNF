@@ -32,8 +32,8 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto" data-toggle="collapse" href="#navcol-1">
                         <li class="nav-item " role="presentation"><a  class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
-                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#progetti">Progetti</a></li>
+                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#partecipa">Partecipa</a></li>
                     </ul>
                 </div>
