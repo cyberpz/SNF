@@ -32,8 +32,8 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto" data-toggle="collapse" href="#navcol-1">
                         <li class="nav-item " role="presentation"><a  class="nav-link js-scroll-trigger" href="#chisiamo">Chi siamo</a></li>
-                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#progetti">Progetti</a></li>
+                        <li class="nav-item " role="presentation"><a  class="nav-link" href="#dove">Dove</a></li>
                         <li class="nav-item " role="presentation"><a  class="nav-link" href="#partecipa">Partecipa</a></li>
                     </ul>
                 </div>
@@ -56,7 +56,6 @@
            <div class="swiper-button-next"></div>
        </div>
    </div>
-
 
     <div id="chisiamo" class="highlight-blue">
         <div class="container visible py-5">
@@ -87,7 +86,7 @@
                     <p class="description" style="font-size:1.5rem;">Nato nel  2005, ha portato oltre 1000 studenti, manager e imprenditori da più di 30 Paesi in Silicon Valley, a conoscere in una settimana le storie di centinaia di italiani che là hanno fatto la differenza.<br></p>
                   </a>
                 </div>
-                <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100" style="min-height: 0">
                   <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color: #7e8285">
                     <img class="img-fluid" src="assets/img/tssv.png" style="width:20rem">
                     <p class="description" style="font-size:1.5rem;">Nato nel 2013, technology e business scouting in Silicon Valley di durata fino a 3 mesi, progetto sviluppato grazie agli Alumni del Silicon Valley Study Tour ed al network
@@ -139,18 +138,18 @@
                 <div class="row">
                     <div class="col-md-6 item text">
                         <h3>La Storia Nel Futuro</h3>
-                        <p>La prima associazione culturale con l’obiettivo di valorizzare il genius loci. Dal 1998, in Italia. <br> P.IVA: 01730980032<br></p>
+                        <p>P.IVA: IT01730980032<br></p>
+                          <div>
+                            <a style="color:#f0f9ff" target="_blank" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
+                          </div>
                     </div>
                     <div class="col item social">
-                      <a href="https://www.facebook.com/SVSTour/">
+                      <a target="_blank" href="https://www.facebook.com/SVSTour/">
                         <i class="icon ion-social-facebook"></i>
                       </a>
-                      <a href="https://www.instagram.com/siliconvalleystudytour/">
+                      <a target="_blank" href="https://www.instagram.com/siliconvalleystudytour/">
                         <i class="icon ion-social-instagram"></i>
                       </a>
-                      <div>
-                          <a style="color:#f0f9ff" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
-                      </div>
                     </div>
                 </div>
                 <p class="copyright">La Storia Nel Futuro © 2018<br></p>
