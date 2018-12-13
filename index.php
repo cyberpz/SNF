@@ -3,6 +3,16 @@
     header('Location: https://storianelfuturo.org/');
   }
 
+  $messageSent = False;
+  if(isset($_POST['email']) and isset($_POST['message'])){
+      mail(
+        "info@storianelfuturo.org",
+        "Messaggio da ".$_POST['name'],
+        "Hai ricevuto un nuovo messaggio da ".$_POST['name'].".\nEmail di riferimento: ".$_POST['email']."\n\nMessaggio:\n".$_POST['message']
+      );
+      $messageSent = True;
+  }
+
   $path = "descs.json";
   $file = fopen($path,'r') ;
   $raw = fread($file, filesize($path));
@@ -81,16 +91,25 @@
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
                     <img class="img-fluid" src="assets/img/collage.jpg">
                     <h3 class="name" style="font-size:3rem;"><strong>Conferenze</strong></h3>
-                    <p class="description" style="font-size:1.5rem;">Più di 400 conferenze ed eventi, oltre 500 speaker in tutta Italia, Università e Centri per l’Innovazione, per far conoscere storie di successo partite dal genio di quei luoghi.<br></p>
+                    <p class="description" style="font-size:1.5rem;">Più di 400 conferenze ed eventi, oltre 500 speaker in tutta Italia, Università e Centri per l’Innovazione, per far conoscere storie di successo partite dal genio di quei luoghi</p>
                   </a>
                 </div>
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="50">
                   <a href="https://siliconvalleystudytour.com" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/40194714_2074923265871780_1158958815580782592_n.png" style="padding:3rem">
-                    <h3 class="name" style="font-size:3rem;">Silicon Valley Study Tour<br></h3>
-                    <p class="description" style="font-size:1.5rem;">Nato nel  2005, ha portato oltre 1000 studenti, manager e imprenditori da più di 30 Paesi in Silicon Valley, a conoscere in una settimana le storie di centinaia di italiani che là hanno fatto la differenza.<br></p>
                   </a>
+                  <div class="row justify-content-center text-center">
+                    <a class="px-3" target="_blank" href="https://www.facebook.com/SVSTour/">
+                      <i class="icon ion-social-facebook" style="font-size:2.4rem; color:#7d8285"></i>
+                    </a>
+                    <a class="px-3" target="_blank" href="https://www.instagram.com/siliconvalleystudytour/">
+                      <i class="icon ion-social-instagram" style="font-size:2.4rem; color:#7d8285"></i>
+                    </a>
+                  </div>
+                  <h3 class="name" style="font-size:3rem;">Silicon Valley Study Tour<br></h3>
+                  <p class="description" style="font-size:1.5rem;">Nato nel  2005, ha portato oltre 1000 studenti, manager e imprenditori da più di 30 Paesi in Silicon Valley, a conoscere in una settimana le storie di centinaia di italiani che là hanno fatto la differenza<br></p>
                 </div>
+
                 <div class="col-10 item" data-aos="zoom-in" data-aos-delay="100" style="min-height: 0">
                   <a href="https://techscoutsv.com/" target="_blank" target="_blank" style="text-decoration: none; color: #7e8285">
                     <img class="img-fluid" src="assets/img/tssv.png" style="width:20rem">
@@ -100,12 +119,18 @@
                     </p>
                   </a>
                 </div>
+
                 <div class="col-10 item mb-5" data-aos="zoom-in" data-aos-delay="100">
-                  <a href="https://welcomaps.org/" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
+                  <a href="https://welcomaps.wordpress.com" target="_blank" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/welcomaps.png" style="padding:3rem">
-                    <h3 class="name" style="font-size:3rem;">Welcomaps</h3>
-                    <p class="description" style="font-size:1.5rem;">Nata nel 2017, la mappa dei progetti di accoglienza migranti in Italia per trasferire il messaggio “si può fare”<br></p>
                   </a>
+                  <div class="row justify-content-center text-center">
+                    <a target="_blank" href="https://www.facebook.com/welcomaps/">
+                      <i style="font-size:2.4rem; color:#7d8285" class="icon ion-social-facebook"></i>
+                    </a>
+                  </div>
+                  <h3 class="name" style="font-size:3rem;">Welcomaps</h3>
+                  <p class="description" style="font-size:1.5rem;">Nata nel 2017, la mappa dei progetti di accoglienza migranti in Italia per trasferire il messaggio “si può fare”<br></p>
                 </div>
             </div>
         </div>
@@ -134,6 +159,7 @@
             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
             <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Messaggio"></textarea></div>
             <div class="form-group d-flex justify-content-center align-content-center align-self-center"><button class="btn btn-primary" type="submit">INVIA</button></div>
+            <?php if($messageSent):?><p class="text-center">Il tuo messaggio è stato inviato! Ti contatteremo a breve.</p><?php endif; ?>
         </form>
     </div>
 
@@ -147,14 +173,6 @@
                           <div>
                             <a style="color:#f0f9ff" target="_blank" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
                           </div>
-                    </div>
-                    <div class="col item social">
-                      <a target="_blank" href="https://www.facebook.com/SVSTour/">
-                        <i class="icon ion-social-facebook"></i>
-                      </a>
-                      <a target="_blank" href="https://www.instagram.com/siliconvalleystudytour/">
-                        <i class="icon ion-social-instagram"></i>
-                      </a>
                     </div>
                 </div>
                 <p class="copyright">La Storia Nel Futuro © 2018<br></p>
