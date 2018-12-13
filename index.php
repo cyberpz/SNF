@@ -33,7 +33,6 @@
     <title>La Storia nel Futuro</title>
 </head>
 
-
 <body class="eupopup eupopup-top">
    <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top">
         <div class="container">
