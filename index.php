@@ -23,8 +23,8 @@
     <title>La Storia nel Futuro</title>
 </head>
 
-<body class="eupopup eupopup-top">
     <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top">
+<body class="eupopup eupopup-top" style="overflow-x:hidden">
         <div class="container">
           <a class="navbar-brand text-monospace text-white" href="index.php" style="background-color:rgb(255,255,255);background-image:url(&quot;assets/img/Schermata 2018-11-21 alle 15.50.01.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;width:17rem;height:4rem;"></a>
 
