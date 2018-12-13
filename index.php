@@ -2,7 +2,6 @@
   if(!isset($_SERVER['HTTPS'])){
     header('Location: https://storianelfuturo.org/');
   }
-  print_r($_SERVER);
 
   $path = "descs.json";
   $file = fopen($path,'r') ;
@@ -143,7 +142,7 @@
                 <div class="row">
                     <div class="col-md-6 item text">
                         <h3>La Storia Nel Futuro</h3>
-                        <p>P.IVA: IT01730980032<br></p>
+                        <p>P.IVA: IT01730980032<br> <br>PH: Luca Signori</p>
                           <div>
                             <a style="color:#f0f9ff" target="_blank" href="privacy-policy.html"> <p>Privacy Policy</p> </a>
                           </div>
