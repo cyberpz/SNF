@@ -97,12 +97,15 @@
                   <a href="https://siliconvalleystudytour.com" target="_blank" style="text-decoration: none; color:#2c4484">
                     <img class="img-fluid" src="assets/img/40194714_2074923265871780_1158958815580782592_n.png" style="padding:3rem">
                   </a>
-                  <div class="row justify-content-center text-center">
+                  <div style="margin-left:15px">
                     <a class="px-3" target="_blank" href="https://www.facebook.com/SVSTour/">
                       <i class="icon ion-social-facebook" style="font-size:2.4rem; color:#7d8285"></i>
                     </a>
                     <a class="px-3" target="_blank" href="https://www.instagram.com/siliconvalleystudytour/">
                       <i class="icon ion-social-instagram" style="font-size:2.4rem; color:#7d8285"></i>
+                    </a>
+                    <a class="px-3" target="_blank" href="https://www.linkedin.com/company/silicon-valley-study-tour/">
+                      <i class="icon ion-social-linkedin" style="font-size:2.4rem; color:#7d8285"></i>
                     </a>
                   </div>
                   <h3 class="name" style="font-size:3rem;">Silicon Valley Study Tour<br></h3>
